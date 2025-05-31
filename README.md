@@ -6,8 +6,8 @@ python3.12 -m venv ~/venv/open3d
 source ~/venv/open3d/bin/activate
 ```
 
-Building Azure-Kinect-Sensor-SDK: Follow [here](https://github.com/microsoft/Azure-Kinect-Sensor-SDK/blob/develop/docs/building.md)
-Note: It usually works for ubuntu 20.04, for higher versions, refer to [here](https://github.com/microsoft/Azure-Kinect-Sensor-SDK/issues/1790)
+Building Azure-Kinect-Sensor-SDK: Follow [here](https://github.com/microsoft/Azure-Kinect-Sensor-SDK/blob/develop/docs/building.md).
+ It usually works for ubuntu 20.04, for higher versions, refer to [here](https://github.com/microsoft/Azure-Kinect-Sensor-SDK/issues/1790)
 
 Building Open3d library: Follow [here](https://www.open3d.org/docs/release/compilation.html#compilation)
 
