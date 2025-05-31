@@ -1,0 +1,13 @@
+# Ignore large data files
+*.mkv
+*.pcd
+*.bag
+
+# Python cache
+__pycache__/
+*.pyc
+
+# IDE temporary files
+.vscode/
+.idea/
+
