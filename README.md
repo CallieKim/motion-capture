@@ -27,5 +27,5 @@ python /workspace/src/Open3D/examples/python/reconstruction_system/sensors/azure
 ```
 Generate point cloud:
 ```
-python read_point_cloud.py --rgb /workspace/src/Open3D/frames/color/00000.jpg --depth /workspace/src/Open3D/frames/depth/00000.png --output /workspace/src/Open3D/data/output00000.pcd
+python trans_to_point_cloud.py --rgb /workspace/src/Open3D/frames/color/00000.jpg --depth /workspace/src/Open3D/frames/depth/00000.png --output /workspace/src/Open3D/data/output00000.pcd
 ```
