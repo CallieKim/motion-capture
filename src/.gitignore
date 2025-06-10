@@ -2,6 +2,10 @@
 *.mkv
 *.pcd
 *.bag
+*.jpg
+*.png
+*.pdf
+*.hdf5
 
 # Python cache
 __pycache__/
