@@ -247,7 +247,7 @@
   <joint name="delto_base_joint" type="fixed">
     <parent link="panda_link8"/>
     <child link="delto_base_link"/>
-    <origin rpy="0 0 0" xyz="0 0 0.0502"/>
+    <origin rpy="0 0 0" xyz="0 0 0.05218562175888181"/>
   </joint>
 
 
