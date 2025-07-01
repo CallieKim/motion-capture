@@ -57,7 +57,6 @@ sphere_id_3 = p.createMultiBody(
     baseVisualShapeIndex=visual_shape3,
     basePosition=[temp[0], temp[1], temp[2]]
 )
-# basePosition=[-1, -2, 0.5]
 
 
 
@@ -180,8 +179,8 @@ num_positions = min(len(controllable_joints), len(joint_states_list))
 
 # finger tip 1 follows red sphere
 # finger tip 2 follows green sphere
-# finger tip 3 follows blue sphere - currently not following the blue sphere
-
+# finger tip 3 follows blue sphere 
+# 
 
 # Step the simulation to see the movement
 for i in range(10000):    
@@ -201,12 +200,12 @@ for i in range(10000):
     )
     p.resetBasePositionAndOrientation(
         sphere_id_2, 
-        [0, 0.05, 0.2],  # Position of the first fingertip
+        [0, 0.05, 0.2],  # Position of the second fingertip
         [0, 0, 0, 1]  # Quaternion for orientation (no rotation)
     )
     p.resetBasePositionAndOrientation(
         sphere_id_3, 
-        [-0.05, -0.05, 0.2],  # Position of the first fingertip
+        [-0.05, -0.05, 0.2],  # Position of the third fingertip
         [0, 0, 0, 1]  # Quaternion for orientation (no rotation)
     )
     
