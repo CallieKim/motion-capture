@@ -217,7 +217,6 @@
     <limit effort="12" lower="-2.8973" upper="2.8973" velocity="2.6100"/>
   </joint>
 
-   <!-- setting attachment point for EEF models -->
   <!-- <link name="panda_link8">
   	 <inertial>
       <origin rpy="0 0 0" xyz="0 0 0"/>
@@ -244,6 +243,7 @@
 <!--################################################
   ########              gripper                  #####
   ####################################################-->
+   <!-- Adding a fixed joint to connect tesollo gripper and panda arm -->
   <joint name="delto_base_joint" type="fixed">
     <parent link="panda_link8"/>
     <child link="delto_base_link"/>
